@@ -1,0 +1,23 @@
+{
+  "name": "lithium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lithium.py",
+  "dependencies": {
+    "lessc": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcastan6/lithium.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcastan6/lithium/issues"
+  },
+  "homepage": "https://github.com/jcastan6/lithium#readme"
+}
