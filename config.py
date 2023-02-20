@@ -24,3 +24,11 @@ class Config:
     STATIC_FOLDER = "static"
     TEMPLATES_FOLDER = "templates"
     COMPRESSOR_DEBUG = True
+    
+    CELERY_RESULT_BACKEND = environ.get("CELERY_RESULT_BACKEND")
+    CELERY_BROKER_URL = environ.get("CELERY_BROKER_URL")
+    SQLALCHEMY_DATABASE_URI = environ.get("SQLALCHEMY_DATABASE_URI")
+    CELERY_IMPORTS = ("app.client.similarity.similarity")
+    CELERY_ACCEPT_CONTENT = ['json']
+    CELERY_RESULT_SERIALIZER = 'json'
+    CELERY_TASK_SERIALIZER = 'json'
